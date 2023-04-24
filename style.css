@@ -1,0 +1,98 @@
+body {
+    /* background-image: url("6237476501323776-av5fyyvn.gif"); */
+    background-image: url("esqueleto-skeleton.gif");
+    background-size: 100% 100%;
+    max-width: 10%;
+    width: 900%;
+    height: 600px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: auto;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 300%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 43%;
+    color: aliceblue;
+    margin-right: 30%;
+    /* background-color: rgba(2, 103, 255, 0.466); */
+    background-blend-mode: difference;
+    border-radius: 30px;
+    backdrop-filter: blur(300%);
+    font-style: oblique;  
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    margin-top: 0px;
+    font-size: 550%;
+    color: aliceblue;
+    margin-bottom: 20px;
+    margin-left: 49%;
+    margin-right: 50%;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+h3 {
+    margin-top: 0px;
+    font-size: 100%;
+    color: antiquewhite;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 20px;
+    margin-left: 35%;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+button {
+    border: none;
+    font-size: 110%;
+    margin-left: 45%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 200px;
+    border-radius: 30px;
+  
+    height: 100px;
+}
+
+#inc_button{
+    color: rgb(240, 141, 132);
+    background-color: rgba(66, 33, 33, 0.929);
+}
+
+#save_button{
+    color: rgb(44, 44, 44);
+    background-color: rgba(216, 216, 216, 0.903);
+    padding-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+#warning{
+    margin-top: 0px;
+    font-size: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-bottom: 0px;
+    margin-right: 35%;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+@media only screen and (min-device-width: 400px) {
+  body {
+    background-image: url('esqueleto-skeleton.gif');
+  }
+}
